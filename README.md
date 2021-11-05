@@ -11,4 +11,4 @@
 7. Добавить логику постоянного ускорения всех шариков с течением времени для усложнения процесса.
 8. Версия юнити - 2020
 
-![GamePlay](https://github.com/naxa1ka/TestWorkMaxKrukov/blob/main/gameplay.gif) 
+![GamePlay](gameplay.gif) 
