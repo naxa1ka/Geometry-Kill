@@ -13,3 +13,6 @@
 <p align="center">
   <img src="gameplay.gif" alt="gameplay" />
 </p>
+
+Плагины:
+DOTween, Zenject, TextMeshPro
