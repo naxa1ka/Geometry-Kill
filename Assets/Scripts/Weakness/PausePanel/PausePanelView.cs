@@ -57,4 +57,12 @@ public class PausePanelView : MonoBehaviour
         _restartButton.onClick.RemoveListener(OnRestartClick);
         _playButton.onClick.RemoveListener(OnPlayClick);
     }
+
+    private void OnApplicationPause(bool pauseStatus)
+    {
+        if (pauseStatus)
+        {
+            OnPause?.Invoke();
+        }
+    }
 }
