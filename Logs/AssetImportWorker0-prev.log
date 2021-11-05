@@ -1,0 +1,1699 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.15f2 (6cf78cb77498) revision 7141260'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1052; Version 2009; 64bit' Language: 'ru' Physical Memory: 8094 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.15f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/_Unity_Projects_/TestMaxKrukov/TestMaxKrukov
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49750
+Successfully changed project path to: E:/_Unity_Projects_/TestMaxKrukov/TestMaxKrukov
+E:/_Unity_Projects_/TestMaxKrukov/TestMaxKrukov
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 88.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.15f2 (6cf78cb77498)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/_Unity_Projects_/TestMaxKrukov/TestMaxKrukov/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940M (ID=0x139c)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   30.0.14.7196
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001953 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 90.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.857 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2857ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (697ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004592 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 205.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.179 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2180ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1885ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (609ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (831ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (205ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (421ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.4 MB.
+System memory in use after: 118.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3191.
+Total: 4.441900 ms (FindLiveObjects: 0.391800 ms CreateObjectMapping: 0.292600 ms MarkObjects: 3.570600 ms  DeleteObjects: 0.184400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Packages/com.unity.nuget.newtonsoft-json/Tests/Editor/Unity.Nuget.NewtonsoftJson.EditorTests.asmdef
+  artifactKey: Guid(ea73f805f48068f409cafb2b12726b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.nuget.newtonsoft-json/Tests/Editor/Unity.Nuget.NewtonsoftJson.EditorTests.asmdef using Guid(ea73f805f48068f409cafb2b12726b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a1d4dc14dfd82d81373006e442a110') in 0.030356 seconds 
+  Import took 0.038590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Packages/com.unity.nuget.newtonsoft-json/Tests/Editor/SanityTests.cs
+  artifactKey: Guid(db8bd236e67aa8f42be69a4e732686fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.nuget.newtonsoft-json/Tests/Editor/SanityTests.cs using Guid(db8bd236e67aa8f42be69a4e732686fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab724a965f6f9ecce4fe33f061937ffa') in 0.011404 seconds 
+  Import took 0.021139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.159381 seconds.
+  path: Assets/Modern & Clean GUI/Modern & Clean GUI Features.jpg
+  artifactKey: Guid(f02ae026f85ece842ab30f54d883c2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Modern & Clean GUI Features.jpg using Guid(f02ae026f85ece842ab30f54d883c2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad55bf27424447b9651575fb9c3c9d6') in 0.202194 seconds 
+  Import took 0.210284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Modern & Clean GUI/Modern & Clean HUD Rounded.jpg
+  artifactKey: Guid(927188d68fb1ca3469123e83e34531e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Modern & Clean HUD Rounded.jpg using Guid(927188d68fb1ca3469123e83e34531e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163b83bdd2e96fd23ef81c51b6a35631') in 0.049039 seconds 
+  Import took 0.067737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Modern & Clean GUI/Modern & Clean GUI.psd
+  artifactKey: Guid(643c90a0563c0d64696c013490ff04c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Modern & Clean GUI.psd using Guid(643c90a0563c0d64696c013490ff04c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67dc4a01b8b5d2514fe9004f87347ed') in 0.053929 seconds 
+  Import took 0.062655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Modern & Clean GUI/Modern & Clean GUI Rounded.psd
+  artifactKey: Guid(98192691f6755fc40b44c9382345f5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Modern & Clean GUI Rounded.psd using Guid(98192691f6755fc40b44c9382345f5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af178209495929a8f222bbc7ccc2798') in 0.045480 seconds 
+  Import took 0.053808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Modern & Clean GUI/Modern & Clean GUI Rounded.jpg
+  artifactKey: Guid(a65773b849cb2a54c9b10eee5f7a9f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Modern & Clean GUI Rounded.jpg using Guid(a65773b849cb2a54c9b10eee5f7a9f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c02aeff3eba88726eca5696683014bc') in 0.052044 seconds 
+  Import took 0.061749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Modern & Clean GUI/Modern & Clean HUD Rounded.psd
+  artifactKey: Guid(42f54622913da37469e352ec534bf81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Modern & Clean HUD Rounded.psd using Guid(42f54622913da37469e352ec534bf81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fad13b1e8457f5035f87acde41ea863') in 0.052499 seconds 
+  Import took 0.061768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Modern & Clean GUI/Modern & Clean GUI Sign In.jpg
+  artifactKey: Guid(bcb9fc4d45f637048a33968c6ebb1a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Modern & Clean GUI Sign In.jpg using Guid(bcb9fc4d45f637048a33968c6ebb1a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c4f926c8b5951eb963112b80b06f56') in 0.050763 seconds 
+  Import took 0.060576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.513757 seconds.
+  path: Assets/Modern & Clean GUI/HUD
+  artifactKey: Guid(6ff5c7102f89f79429cc6544efabc30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD using Guid(6ff5c7102f89f79429cc6544efabc30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51286340e67edf79dcd09b77994b9bf9') in 0.001581 seconds 
+  Import took 0.010576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096482 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_ActionBar_Frame.png
+  artifactKey: Guid(d8b12beed994cee4d8af7d172e43f10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_ActionBar_Frame.png using Guid(d8b12beed994cee4d8af7d172e43f10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623eb1493cb068a90127c23a15aa32a8') in 0.023959 seconds 
+  Import took 0.042278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_HealthBar_Fill_Rounded.png
+  artifactKey: Guid(b4139ffa9e7d15e4db1f21171dcaf1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_HealthBar_Fill_Rounded.png using Guid(b4139ffa9e7d15e4db1f21171dcaf1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea624738b2aef80cf9d08ec050f194a2') in 0.018502 seconds 
+  Import took 0.025355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Reticle.png
+  artifactKey: Guid(c918d35b96f9a5c49b81ac47568b7f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Reticle.png using Guid(c918d35b96f9a5c49b81ac47568b7f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b0f7d9f7f267d92a02a614cb291dd5') in 0.020113 seconds 
+  Import took 0.029784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Menu_Extended.png
+  artifactKey: Guid(bf5182e4155efef47a9acc2672d7af08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Menu_Extended.png using Guid(bf5182e4155efef47a9acc2672d7af08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8f26a9c8f1feb9445dfdf3d3157d01') in 0.018569 seconds 
+  Import took 0.026634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Announcement.png
+  artifactKey: Guid(7c9f8445d801add438ad23264e36c802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Announcement.png using Guid(7c9f8445d801add438ad23264e36c802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391f58b90455e72a56d9addc34b89d7f') in 0.018687 seconds 
+  Import took 0.032729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_ActionBar_Slot_Empty.png
+  artifactKey: Guid(a76db9c723e0dc6418fcbebaf537c2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_ActionBar_Slot_Empty.png using Guid(a76db9c723e0dc6418fcbebaf537c2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f660611a91f7ed63867b33e2a124bc') in 0.020142 seconds 
+  Import took 0.029657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_ActionBar_Slot_Empty_Rounded.png
+  artifactKey: Guid(b5358b188d4bf6e40940b6da8602f83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_ActionBar_Slot_Empty_Rounded.png using Guid(b5358b188d4bf6e40940b6da8602f83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cd081bfc4b97bbd652649f76cced42') in 0.021825 seconds 
+  Import took 0.029245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Menu_Extended_Rounded.png
+  artifactKey: Guid(7a3f761d33f9f6b45a178cc533ca9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Menu_Extended_Rounded.png using Guid(7a3f761d33f9f6b45a178cc533ca9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c4197968973feef3fef0c755b0a07f') in 0.016406 seconds 
+  Import took 0.026406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Target_HealthBar_Empty.png
+  artifactKey: Guid(045f45670b2528841a6c117df431fdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Target_HealthBar_Empty.png using Guid(045f45670b2528841a6c117df431fdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b320be353c117d0e52b7e83ec98ac8f') in 0.017285 seconds 
+  Import took 0.023545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Target_HealthBar_Fill_Rounded.png
+  artifactKey: Guid(830be745fb8594343be51e620e3a3068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Target_HealthBar_Fill_Rounded.png using Guid(830be745fb8594343be51e620e3a3068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b95f5e7711c387e359748afe2016e3') in 0.015873 seconds 
+  Import took 0.037675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_ActionBar_Slot_Filled_Rounded.png
+  artifactKey: Guid(ce3c3c906ae4a7c43a6af348e82c5d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_ActionBar_Slot_Filled_Rounded.png using Guid(ce3c3c906ae4a7c43a6af348e82c5d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af3ac37ebb58521794ae3f0d6af78c3') in 0.018082 seconds 
+  Import took 0.024903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_HealthBar_Fill.png
+  artifactKey: Guid(bdb0eeada64f8c14c8434497a7f7bddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_HealthBar_Fill.png using Guid(bdb0eeada64f8c14c8434497a7f7bddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b22f3810f7741be4188476c955a0e73') in 0.015723 seconds 
+  Import took 0.025337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000781 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Endurance_Full_Rounded.png
+  artifactKey: Guid(b058b0e5de3783648b27e31c115b21ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Endurance_Full_Rounded.png using Guid(b058b0e5de3783648b27e31c115b21ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def1a4e7083a481683bb6b636a02ea15') in 0.017327 seconds 
+  Import took 0.026242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Menu.png
+  artifactKey: Guid(5cc82625efef6a24a84fe4cee835ad6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Menu.png using Guid(5cc82625efef6a24a84fe4cee835ad6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2edded026cab1dfba321a40a79ed74de') in 0.017921 seconds 
+  Import took 0.028508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Target_HealthBar_Fill.png
+  artifactKey: Guid(dfecf301bd33b7542b66d3d0f4a3e559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Target_HealthBar_Fill.png using Guid(dfecf301bd33b7542b66d3d0f4a3e559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b75ed64066d8e53aebece9c9919003e') in 0.013550 seconds 
+  Import took 0.025499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_ActionBar_Slot_Filled.png
+  artifactKey: Guid(b74f7b44cb3d36643a431dba5373ec1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_ActionBar_Slot_Filled.png using Guid(b74f7b44cb3d36643a431dba5373ec1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0a7b1dc7d360132c9eb45e71efc242') in 0.018346 seconds 
+  Import took 0.025461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Endurance_Empty.png
+  artifactKey: Guid(a25b7d0978979954fa4a08dd057c420c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Endurance_Empty.png using Guid(a25b7d0978979954fa4a08dd057c420c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3345c97fcbed230991f6b604604f9a') in 0.013288 seconds 
+  Import took 0.023694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Menu_Rounded.png
+  artifactKey: Guid(d78d7d262fa85804c9b38123d3cd13ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Menu_Rounded.png using Guid(d78d7d262fa85804c9b38123d3cd13ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc6a4c70bbe076bda3e7f1bae086636') in 0.015593 seconds 
+  Import took 0.023777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Target_HealthBar_Empty_Rounded.png
+  artifactKey: Guid(a07f1917a0341ca489377750b13edc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Target_HealthBar_Empty_Rounded.png using Guid(a07f1917a0341ca489377750b13edc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd809fb757b49e0b4a2f941e67ab95c9a') in 0.014823 seconds 
+  Import took 0.023593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_ActionBar_Frame_Rounded.png
+  artifactKey: Guid(e67f439cf1c5dda4a989d83a2d46b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_ActionBar_Frame_Rounded.png using Guid(e67f439cf1c5dda4a989d83a2d46b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cba007192577b2e18327d6a067f0aeb') in 0.022218 seconds 
+  Import took 0.030983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Endurance_Full.png
+  artifactKey: Guid(822ad09ea6b37164880d9d1d761a51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Endurance_Full.png using Guid(822ad09ea6b37164880d9d1d761a51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c435f7499bfd33b14de9e13480ba7dc') in 0.017964 seconds 
+  Import took 0.031093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_HealthBar_Empty.png
+  artifactKey: Guid(809ebf31e2a241f489d36076206d4b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_HealthBar_Empty.png using Guid(809ebf31e2a241f489d36076206d4b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb68ebdbe030b83a39442f9112a0e3d') in 0.018527 seconds 
+  Import took 0.029211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_HealthBar_Empty_Rounded.png
+  artifactKey: Guid(daadfae46976a9940a94c6ca9b817cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_HealthBar_Empty_Rounded.png using Guid(daadfae46976a9940a94c6ca9b817cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f2884f4285e20b1ead1c8e86678bcc') in 0.017464 seconds 
+  Import took 0.027302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Radar_ViewAngle.png
+  artifactKey: Guid(480ac0031128b4d4da093154e14c9763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Radar_ViewAngle.png using Guid(480ac0031128b4d4da093154e14c9763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3833b3c9a87b8c365d045a398732e8e3') in 0.025821 seconds 
+  Import took 0.036408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Endurance_Empty_Rounded.png
+  artifactKey: Guid(01b60619305c9a74aa03d0c3263c0f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Endurance_Empty_Rounded.png using Guid(01b60619305c9a74aa03d0c3263c0f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee05cb76daba35a4f402bf63aa6331c') in 0.020984 seconds 
+  Import took 0.032703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Announcement_Rounded.png
+  artifactKey: Guid(9db7cad34af4d0947b454de270dbec46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Announcement_Rounded.png using Guid(9db7cad34af4d0947b454de270dbec46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef32fabb9dddbf18ef5ac8105e99d8c5') in 0.020808 seconds 
+  Import took 0.030675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Radar_Base.png
+  artifactKey: Guid(85a43fe344f303d48bfe6a04ca78b733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Radar_Base.png using Guid(85a43fe344f303d48bfe6a04ca78b733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc003ad2881c0a70b3df78c6b303c07') in 0.024504 seconds 
+  Import took 0.033735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.569277 seconds.
+  path: Assets/Modern & Clean GUI/Cursors
+  artifactKey: Guid(a9a182bc5a9273d4e9f32ecaa08c607d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Cursors using Guid(a9a182bc5a9273d4e9f32ecaa08c607d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ea6d495fae25922f43c6339c0ff73a') in 0.004117 seconds 
+  Import took 0.011473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087386 seconds.
+  path: Assets/Modern & Clean GUI/Cursors/Cursor_Rounded_1.png
+  artifactKey: Guid(dc447985015ee0744a767591afdab2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Cursors/Cursor_Rounded_1.png using Guid(dc447985015ee0744a767591afdab2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d4f335ce13790405551ad5c73711ad') in 0.014349 seconds 
+  Import took 0.020974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Modern & Clean GUI/Cursors/Cursor_Squared_3.png
+  artifactKey: Guid(fefed8016e2266d4fad5758b01b78965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Cursors/Cursor_Squared_3.png using Guid(fefed8016e2266d4fad5758b01b78965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07193bacd2a09a7777a43e3206a8c9d') in 0.021524 seconds 
+  Import took 0.028177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Modern & Clean GUI/Cursors/Cursor_Squared_1.png
+  artifactKey: Guid(2894bcb7ea98caa44935c94b6a457450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Cursors/Cursor_Squared_1.png using Guid(2894bcb7ea98caa44935c94b6a457450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212e242e5548172bbef0434083f2a6ef') in 0.021216 seconds 
+  Import took 0.029468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Modern & Clean GUI/Cursors/Cursor_Rounded_3.png
+  artifactKey: Guid(16c318e920fc9434fb0a3f72398badd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Cursors/Cursor_Rounded_3.png using Guid(16c318e920fc9434fb0a3f72398badd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb15d4aab6b753ed4504cbfb092f9757') in 0.019184 seconds 
+  Import took 0.027096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Modern & Clean GUI/Cursors/Cursor_Squared_2.png
+  artifactKey: Guid(9684e6873367d2e4d9db62d5a5e4bc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Cursors/Cursor_Squared_2.png using Guid(9684e6873367d2e4d9db62d5a5e4bc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1fd3116b01dcac8982f6e519398cf0') in 0.019816 seconds 
+  Import took 0.027299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Modern & Clean GUI/Cursors/Cursor_Rounded_2.png
+  artifactKey: Guid(0231572bad51a2a4192ecd30488d635a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Cursors/Cursor_Rounded_2.png using Guid(0231572bad51a2a4192ecd30488d635a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1d8cbbc9c008a177776157236d3e3f') in 0.017338 seconds 
+  Import took 0.024985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.054315 seconds.
+  path: Assets/Modern & Clean GUI/Buttons
+  artifactKey: Guid(9bca83a511832564784e24d6b71e3d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Buttons using Guid(9bca83a511832564784e24d6b71e3d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4e881bdde479b1f382e3f64746a71e') in 0.002066 seconds 
+  Import took 0.010803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053169 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_Main_Hover.png
+  artifactKey: Guid(09a22108cae6a8646922686beba54cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_Main_Hover.png using Guid(09a22108cae6a8646922686beba54cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f62a53c0009fe87d2f893b3df4693d0') in 0.016527 seconds 
+  Import took 0.023398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_Main_Hover_Rounded.png
+  artifactKey: Guid(a97ffa9a1883915479cb5536a2ed6f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_Main_Hover_Rounded.png using Guid(a97ffa9a1883915479cb5536a2ed6f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66e46bc2eeec029b97920ebd7066b64') in 0.015701 seconds 
+  Import took 0.024719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000859 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_Radio_Off_Rounded.png
+  artifactKey: Guid(d7eba6fc8b5f46f48a0c9d698439f10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_Radio_Off_Rounded.png using Guid(d7eba6fc8b5f46f48a0c9d698439f10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2769991c5c0395634504fc8570597f91') in 0.019441 seconds 
+  Import took 0.027836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_Radio_On_Rounded.png
+  artifactKey: Guid(2924c58a15bf1db4183babcb89da19b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_Radio_On_Rounded.png using Guid(2924c58a15bf1db4183babcb89da19b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88f55083f7ddf30f009cec31979297d') in 0.015036 seconds 
+  Import took 0.022432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_TickBox_On_Rounded.png
+  artifactKey: Guid(147da7399057a98468ce3c9fe29b59b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_TickBox_On_Rounded.png using Guid(147da7399057a98468ce3c9fe29b59b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78124c71b188d9fffa0af2ddcc93da76') in 0.018603 seconds 
+  Import took 0.027472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_TickBox_On.png
+  artifactKey: Guid(0f38d21614830d840bcc91fe8a8eeab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_TickBox_On.png using Guid(0f38d21614830d840bcc91fe8a8eeab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a6ebaebffc0089f4fc0f18acc4d42c') in 0.016107 seconds 
+  Import took 0.023746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_Main_NoHover_Rounded.png
+  artifactKey: Guid(76cd79047f156614d92c3944b7c7d9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_Main_NoHover_Rounded.png using Guid(76cd79047f156614d92c3944b7c7d9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8990f1c4ac3519081464dd41ab759921') in 0.022145 seconds 
+  Import took 0.028844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_Radio_On.png
+  artifactKey: Guid(6ebcbe8b33b4ab54f821872797847324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_Radio_On.png using Guid(6ebcbe8b33b4ab54f821872797847324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56239f77942babe1f3d5d7ccd8d1d01') in 0.014502 seconds 
+  Import took 0.022403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_Radio_Off.png
+  artifactKey: Guid(c299c4a91ed41614699d9f9ffdd42f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_Radio_Off.png using Guid(c299c4a91ed41614699d9f9ffdd42f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9faea0049581e67e3d2563264d274368') in 0.017673 seconds 
+  Import took 0.024254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_TickBox_Off.png
+  artifactKey: Guid(c0cf4485859ebc9449faa2a4ddeeeb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_TickBox_Off.png using Guid(c0cf4485859ebc9449faa2a4ddeeeb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e02059927909e1aa7be683b3ea0b6c') in 0.015235 seconds 
+  Import took 0.022724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_Main_NoHover.png
+  artifactKey: Guid(e12a94c90aecd784c9b96dd752fc703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_Main_NoHover.png using Guid(e12a94c90aecd784c9b96dd752fc703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca4fd6a5aebf241d9f601843559e09e') in 0.018521 seconds 
+  Import took 0.026551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_TickBox_Off_Rounded.png
+  artifactKey: Guid(ed56192304678434796b0f9b994878df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_TickBox_Off_Rounded.png using Guid(ed56192304678434796b0f9b994878df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e412cde53de0d25080d840c08e4e992') in 0.017415 seconds 
+  Import took 0.027329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.652787 seconds.
+  path: Assets/Modern & Clean GUI/Icons
+  artifactKey: Guid(77648f842afb0ee46861b13b593803a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons using Guid(77648f842afb0ee46861b13b593803a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec30f9bed6737a521deb206ff8676c95') in 0.001878 seconds 
+  Import took 0.009816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.440932 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square
+  artifactKey: Guid(5b70a7b10a57f9f48919871dc00206ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square using Guid(5b70a7b10a57f9f48919871dc00206ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25a8c4b3a08b3ecef8302986162cb2e') in 0.001762 seconds 
+  Import took 0.010305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.178880 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64
+  artifactKey: Guid(b8c0c423122d35f48bd343552620d9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64 using Guid(b8c0c423122d35f48bd343552620d9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca7c341faade9d16b0e2990a290dcf2') in 0.001862 seconds 
+  Import took 0.010478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066607 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_ArrowDown.png
+  artifactKey: Guid(9aef6daf1d6275d4482999546f47e919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_ArrowDown.png using Guid(9aef6daf1d6275d4482999546f47e919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b063822878f17f66246c951cecf376e0') in 0.021795 seconds 
+  Import took 0.032764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_X.png
+  artifactKey: Guid(761837612293a90429622bf0b079c656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_X.png using Guid(761837612293a90429622bf0b079c656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a786ba838e9e113ca538e51f88af5643') in 0.016782 seconds 
+  Import took 0.025644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Undo.png
+  artifactKey: Guid(b76909eeec1ad124fa8f616c7e897500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Undo.png using Guid(b76909eeec1ad124fa8f616c7e897500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31518770b371e317ff2cc5dd3c95d6ec') in 0.018575 seconds 
+  Import took 0.026502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Sound.png
+  artifactKey: Guid(c7602dfee4abccd47816c7165e1bfcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Sound.png using Guid(c7602dfee4abccd47816c7165e1bfcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23122ded99a86c59f0a81b0040f2f0c4') in 0.016834 seconds 
+  Import took 0.026179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000832 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Potion.png
+  artifactKey: Guid(04b1f09b1fcc327468e1201cb9f09cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Potion.png using Guid(04b1f09b1fcc327468e1201cb9f09cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef02fc410a2c59103ddef9570503d19') in 0.015344 seconds 
+  Import took 0.024147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Random.png
+  artifactKey: Guid(eb3cd19d89de3cd4caa337d68fb94d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Random.png using Guid(eb3cd19d89de3cd4caa337d68fb94d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d17d28ee7c1ce88cbe503b542fd62b') in 0.014256 seconds 
+  Import took 0.022735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Menu.png
+  artifactKey: Guid(f98c0d72c2fa06a49a406a2cf8f2000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Menu.png using Guid(f98c0d72c2fa06a49a406a2cf8f2000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0aeb7d08f8e4f830c799deadfeec15') in 0.014556 seconds 
+  Import took 0.025223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Info.png
+  artifactKey: Guid(0bb2379b56886e744a434a87520acf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Info.png using Guid(0bb2379b56886e744a434a87520acf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba69fd960aa45e9bcbde61ce44967e60') in 0.014854 seconds 
+  Import took 0.022202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Power.png
+  artifactKey: Guid(1a2e50466b8866642abc279f56317874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Power.png using Guid(1a2e50466b8866642abc279f56317874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d47ac10387768b89212e1c630164384') in 0.018434 seconds 
+  Import took 0.025564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Chat.png
+  artifactKey: Guid(1d6c678ac089bff44aaa4ab9135d5797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Chat.png using Guid(1d6c678ac089bff44aaa4ab9135d5797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cc18d4130fdb2045397c136e980e77') in 0.016567 seconds 
+  Import took 0.025620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Quest.png
+  artifactKey: Guid(7ccf54e1b29bf0844972177b7800da88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Quest.png using Guid(7ccf54e1b29bf0844972177b7800da88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703b9373da7efd015eb61506130787aa') in 0.014229 seconds 
+  Import took 0.024783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_ArrowUp.png
+  artifactKey: Guid(e317aa7502922bc409a9cd608b7104f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_ArrowUp.png using Guid(e317aa7502922bc409a9cd608b7104f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d45f9522c7049281986878676f208cf') in 0.017855 seconds 
+  Import took 0.025175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Door.png
+  artifactKey: Guid(1d9899ab50386ac40936e3fc062f54a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Door.png using Guid(1d9899ab50386ac40936e3fc062f54a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae29717eb0c1fb246a945985ea63ae01') in 0.016827 seconds 
+  Import took 0.028293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Attach.png
+  artifactKey: Guid(0b6c010d60b009745a9737ad4c564100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Attach.png using Guid(0b6c010d60b009745a9737ad4c564100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df23b06d5f29050b0a05c6303206d9f9') in 0.015144 seconds 
+  Import took 0.023168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Home.png
+  artifactKey: Guid(c9e2864444270e14e9808fb127ddf429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Home.png using Guid(c9e2864444270e14e9808fb127ddf429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305169d16493bba1b24946092ae0f649') in 0.018998 seconds 
+  Import took 0.025947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Trophy.png
+  artifactKey: Guid(d5a8ce6ff1148d646935ff596188ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Trophy.png using Guid(d5a8ce6ff1148d646935ff596188ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3652562b3502c01247857b69feaa3dde') in 0.022664 seconds 
+  Import took 0.030809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000872 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Profile.png
+  artifactKey: Guid(2fe543ae9d2e55d418512643e34543fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Profile.png using Guid(2fe543ae9d2e55d418512643e34543fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a61db666fb4bdaf22c8aa60a9d4f40') in 0.023870 seconds 
+  Import took 0.031577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Cart.png
+  artifactKey: Guid(e10838c335e8a464b9225c251d4c75cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Cart.png using Guid(e10838c335e8a464b9225c251d4c75cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313613d9c71985de3a3bca143fe5c72b') in 0.017059 seconds 
+  Import took 0.027125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Medal.png
+  artifactKey: Guid(1a999c51873813a4da5df94d31f8f96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Medal.png using Guid(1a999c51873813a4da5df94d31f8f96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f1fa06cef2b45b2869286ecfc1b658') in 0.018142 seconds 
+  Import took 0.027248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Export.png
+  artifactKey: Guid(695918990ddcc194ab582730d7bec795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Export.png using Guid(695918990ddcc194ab582730d7bec795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe80ad351990d6cd805d619c0f4d620') in 0.016668 seconds 
+  Import took 0.026850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_ArrowLeft.png
+  artifactKey: Guid(bed2a4f62a27d5445a3f20454a2ed7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_ArrowLeft.png using Guid(bed2a4f62a27d5445a3f20454a2ed7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742a4652f5956af69f9b975b2c444900') in 0.016636 seconds 
+  Import took 0.026673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_ArrowRight.png
+  artifactKey: Guid(a7427fd88f3e5af4ea85fb5b6f5b2de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_ArrowRight.png using Guid(a7427fd88f3e5af4ea85fb5b6f5b2de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8396f84b6db300ba84d50d1bbd3be2b') in 0.019427 seconds 
+  Import took 0.030502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Squares.png
+  artifactKey: Guid(ca379804b4b78e04f9431d784b36e13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Squares.png using Guid(ca379804b4b78e04f9431d784b36e13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cbc9e31e07b05e4a3a1101a67a8eb1') in 0.022278 seconds 
+  Import took 0.030673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001011 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Import.png
+  artifactKey: Guid(3f6bb7f59a1f95a48971e3f792ceb0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Import.png using Guid(3f6bb7f59a1f95a48971e3f792ceb0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5de5f7d294508c67f811c068da4586') in 0.017648 seconds 
+  Import took 0.027079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Mail.png
+  artifactKey: Guid(f416f7bfc86ff7742babf449ddec0e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Mail.png using Guid(f416f7bfc86ff7742babf449ddec0e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc6bf959cd4874e151ffc9e492dfdac') in 0.016309 seconds 
+  Import took 0.025885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Magnify.png
+  artifactKey: Guid(1e7f0af47546cc949908c73e69528188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Magnify.png using Guid(1e7f0af47546cc949908c73e69528188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3250745aefcb4e34a500d09356a25e1') in 0.021396 seconds 
+  Import took 0.028772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Settings.png
+  artifactKey: Guid(3f8356a254bea2740a5a5cabde249bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Settings.png using Guid(3f8356a254bea2740a5a5cabde249bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fa0526966e30e0ab6ff5b4470cc9f1') in 0.019313 seconds 
+  Import took 0.026476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Mute.png
+  artifactKey: Guid(57deecdb611d96143818f22a279cc454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Mute.png using Guid(57deecdb611d96143818f22a279cc454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d196578e4921bc2c36672298ad3693c') in 0.017232 seconds 
+  Import took 0.026456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Coins.png
+  artifactKey: Guid(e1110e5ece4d5de4ca0a457f6497c377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Coins.png using Guid(e1110e5ece4d5de4ca0a457f6497c377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4f2284dc52540ef42bfe63e739298e') in 0.017351 seconds 
+  Import took 0.023398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Help.png
+  artifactKey: Guid(f06325e413e87f04197c4782e79056ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Help.png using Guid(f06325e413e87f04197c4782e79056ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2afbe0dee84bd6bda00d97df3d111e0') in 0.025210 seconds 
+  Import took 0.034805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.193656 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded
+  artifactKey: Guid(f80bfbf3d6652ad4da02c41d330b0925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded using Guid(f80bfbf3d6652ad4da02c41d330b0925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f400ee2a3e21aa22ea15aeb7777f751b') in 0.001917 seconds 
+  Import took 0.009907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.724315 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64
+  artifactKey: Guid(ca23d25d3f7dbc641921745dd991f753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64 using Guid(ca23d25d3f7dbc641921745dd991f753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db79195eebb99316c5a53aa46f195b5') in 0.002079 seconds 
+  Import took 0.013958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001600 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64
+  artifactKey: Guid(ca23d25d3f7dbc641921745dd991f753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64 using Guid(ca23d25d3f7dbc641921745dd991f753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db79195eebb99316c5a53aa46f195b5') in 0.002059 seconds 
+  Import took 0.008948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078128 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_ArrowDown_Rounded.png
+  artifactKey: Guid(e7bf63aa872b46a43b9f483e11e7a931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_ArrowDown_Rounded.png using Guid(e7bf63aa872b46a43b9f483e11e7a931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107905f57a413a6b802411d05f31e799') in 0.019078 seconds 
+  Import took 0.026893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_ArrowRight_Rounded.png
+  artifactKey: Guid(d9e7552c4dc85fb4aad8056d94a966c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_ArrowRight_Rounded.png using Guid(d9e7552c4dc85fb4aad8056d94a966c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666b26d0a06b7f3917f15b95a735408d') in 0.015145 seconds 
+  Import took 0.023641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_ArrowUp_Rounded.png
+  artifactKey: Guid(420627a0105fcef49b8eca2cea9e5bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_ArrowUp_Rounded.png using Guid(420627a0105fcef49b8eca2cea9e5bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83df042af64743666bc17ab289d2471') in 0.016477 seconds 
+  Import took 0.023667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Export_Rounded.png
+  artifactKey: Guid(726b916d26fc61243ab77338d5ec6ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Export_Rounded.png using Guid(726b916d26fc61243ab77338d5ec6ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77e9659da792e87080e648ca9bec702') in 0.015779 seconds 
+  Import took 0.024304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Import_Rounded.png
+  artifactKey: Guid(39e79700d7c02184badd7dd84caa694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Import_Rounded.png using Guid(39e79700d7c02184badd7dd84caa694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4fa16c68feccf4d8b0fd557b7ffd28f') in 0.023216 seconds 
+  Import took 0.034707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Random_Rounded.png
+  artifactKey: Guid(a8950efcfdc38e148aa97b2cba37d4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Random_Rounded.png using Guid(a8950efcfdc38e148aa97b2cba37d4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaff29e69be3e55018e3d5f022730e19') in 0.020790 seconds 
+  Import took 0.028060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Medal_Rounded.png
+  artifactKey: Guid(45b7644b8cb026448ba5869250288d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Medal_Rounded.png using Guid(45b7644b8cb026448ba5869250288d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fafaea63bb4ba9bd85cb1287c2b219') in 0.020712 seconds 
+  Import took 0.034072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Cart_Rounded.png
+  artifactKey: Guid(c2889c965d0acac4ab623355f92372a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Cart_Rounded.png using Guid(c2889c965d0acac4ab623355f92372a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3684b4497bc53dfb7f34166698a7776') in 0.023009 seconds 
+  Import took 0.033522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Trophy_Rounded.png
+  artifactKey: Guid(e2776c89b22634949b1cb0e598a34e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Trophy_Rounded.png using Guid(e2776c89b22634949b1cb0e598a34e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650e214a9da7e507cb4577cba7f8280d') in 0.018499 seconds 
+  Import took 0.026455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Door_Rounded.png
+  artifactKey: Guid(f44cddfb7c29bc94bb1688f4b6a88138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Door_Rounded.png using Guid(f44cddfb7c29bc94bb1688f4b6a88138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bee81d5057687729d8d3eb45b41dfd') in 0.016916 seconds 
+  Import took 0.023700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Undo_Rounded.png
+  artifactKey: Guid(4db6d84d7126abe42a8091ce68910948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Undo_Rounded.png using Guid(4db6d84d7126abe42a8091ce68910948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3833f6ece89b369c99e574e4611d2155') in 0.017916 seconds 
+  Import took 0.027782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Power_Rounded.png
+  artifactKey: Guid(558888f91ea28fb4fba5a8ea719e0c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Power_Rounded.png using Guid(558888f91ea28fb4fba5a8ea719e0c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a694a5ec341d5dd32530f2e5ec2073') in 0.016958 seconds 
+  Import took 0.025959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Attach_Rounded.png
+  artifactKey: Guid(17f0b8cfa1cdb8e42b48fd2ede22658d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Attach_Rounded.png using Guid(17f0b8cfa1cdb8e42b48fd2ede22658d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60d8f0b95ebe4f248c12328bdd9db1b') in 0.019037 seconds 
+  Import took 0.029866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Info_Rounded.png
+  artifactKey: Guid(9d3e9caefbe824f4783ee1016eadfca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Info_Rounded.png using Guid(9d3e9caefbe824f4783ee1016eadfca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d4816540b35e8bd2908a10904db64b') in 0.016415 seconds 
+  Import took 0.026192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Chat_Rounded.png
+  artifactKey: Guid(0cafe822858d06a42a88ba50ce967aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Chat_Rounded.png using Guid(0cafe822858d06a42a88ba50ce967aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5965cc235c6645574620f428e257f970') in 0.016268 seconds 
+  Import took 0.023517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000787 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Magnify_Rounded.png
+  artifactKey: Guid(8369e524eaafab943a3d19a61de2fc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Magnify_Rounded.png using Guid(8369e524eaafab943a3d19a61de2fc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd8f5ab842a910f9bbbb3473aff400d') in 0.018797 seconds 
+  Import took 0.026936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Potion_Rounded.png
+  artifactKey: Guid(8fe321651ead63948975d57d81a1c76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Potion_Rounded.png using Guid(8fe321651ead63948975d57d81a1c76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ce9daf1f2d6177c2d24f4c34f51448') in 0.015946 seconds 
+  Import took 0.024003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Home_Rounded.png
+  artifactKey: Guid(358fc7f9935a19c449d61611db7c1fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Home_Rounded.png using Guid(358fc7f9935a19c449d61611db7c1fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a08c3874ac9a3560838764ed9a28174') in 0.017926 seconds 
+  Import took 0.029112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Mute_Rounded.png
+  artifactKey: Guid(d9ce736b22c535a4ab89d2b4b09af269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Mute_Rounded.png using Guid(d9ce736b22c535a4ab89d2b4b09af269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e9bdae2b971cf0cd7b973ea5518089') in 0.021281 seconds 
+  Import took 0.029202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_X_Rounded.png
+  artifactKey: Guid(ba7695b156362924b8813e5975747f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_X_Rounded.png using Guid(ba7695b156362924b8813e5975747f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74adb09f2b04c59dcd8d5328ce9aeec') in 0.026961 seconds 
+  Import took 0.034799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Sound_Rounded.png
+  artifactKey: Guid(31bda42d6feece84599e94134ce12946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Sound_Rounded.png using Guid(31bda42d6feece84599e94134ce12946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdce9a75f1836b6a32f5cf83ccbbb19d') in 0.023500 seconds 
+  Import took 0.032855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Profile_Rounded.png
+  artifactKey: Guid(cac0729d8ea6e2040893f9d836a37059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Profile_Rounded.png using Guid(cac0729d8ea6e2040893f9d836a37059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d924dfe5830e4e50322210ff7e3b90') in 0.018662 seconds 
+  Import took 0.030007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Help_Rounded.png
+  artifactKey: Guid(d1f170cd259b421488c8409390e73f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Help_Rounded.png using Guid(d1f170cd259b421488c8409390e73f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0149a42ddd25db8e91704826285af69') in 0.018667 seconds 
+  Import took 0.027821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Menu_Rounded.png
+  artifactKey: Guid(686827562db985041af7050d4f4c03c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Menu_Rounded.png using Guid(686827562db985041af7050d4f4c03c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8d2996f1d43fd1d4dfa592c21ef4b7') in 0.016969 seconds 
+  Import took 0.028006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Coins_Rounded.png
+  artifactKey: Guid(77c6832cbfdf11c42b4975831c7d9c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Coins_Rounded.png using Guid(77c6832cbfdf11c42b4975831c7d9c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd67d582c9bdd4247c734f57e3ce7094') in 0.021875 seconds 
+  Import took 0.029516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Quest_Rounded.png
+  artifactKey: Guid(a9abcff9a343ae34ca5d2f2b91d715d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Quest_Rounded.png using Guid(a9abcff9a343ae34ca5d2f2b91d715d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fbcde671a4aadec39252184e37ec29') in 0.016827 seconds 
+  Import took 0.025321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Mail_Rounded.png
+  artifactKey: Guid(cdb6a3f3d70be054dae6805a0874d3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Mail_Rounded.png using Guid(cdb6a3f3d70be054dae6805a0874d3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d17e29f60c1b91253f31fc08a77b1f') in 0.016713 seconds 
+  Import took 0.024404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_ArrowLeft_Rounded.png
+  artifactKey: Guid(90940b1a005341a47bed730b2627af99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_ArrowLeft_Rounded.png using Guid(90940b1a005341a47bed730b2627af99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f48c1c6d93e7f22e02530e3cbd2ac4c') in 0.026842 seconds 
+  Import took 0.034940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Settings_Rounded.png
+  artifactKey: Guid(045d75dcc73ea084aa18ccd4fa60b5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Settings_Rounded.png using Guid(045d75dcc73ea084aa18ccd4fa60b5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf3d8188d3c65ccb82b1ce957914343') in 0.017751 seconds 
+  Import took 0.025865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Circles_Rounded.png
+  artifactKey: Guid(79b356e8d31c4ce4eab7a6cf666990b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Circles_Rounded.png using Guid(79b356e8d31c4ce4eab7a6cf666990b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5cd7b28ffd3b18b125bd1f79e40395') in 0.020332 seconds 
+  Import took 0.026552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.690970 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/256x256
+  artifactKey: Guid(452a9552a044a6342962358d6f872e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/256x256 using Guid(452a9552a044a6342962358d6f872e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aae82ebc539a11b7f89167f61db2fb4') in 0.001888 seconds 
+  Import took 0.022778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.150224 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean
+  artifactKey: Guid(e7f82a8024d90d845b5bc839387b15c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean using Guid(e7f82a8024d90d845b5bc839387b15c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062090f642a7b594af393e713446979b') in 0.001937 seconds 
+  Import took 0.010304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.664442 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64
+  artifactKey: Guid(6ebb8feed0cc6ac4a8bff0a0d2036175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64 using Guid(6ebb8feed0cc6ac4a8bff0a0d2036175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cec5beb8b99b26b84958d01706089ad') in 0.002099 seconds 
+  Import took 0.011132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056559 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_ArrowDown2.png
+  artifactKey: Guid(b42c9390d696bb04c92506b9f8db4375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_ArrowDown2.png using Guid(b42c9390d696bb04c92506b9f8db4375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4210db2d49efbd977673704a150f55') in 0.017627 seconds 
+  Import took 0.024286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Undo2.png
+  artifactKey: Guid(7cb404b2c8a06594085f5fe2e4469be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Undo2.png using Guid(7cb404b2c8a06594085f5fe2e4469be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834c21ad8de2430809e62e29daf29c42') in 0.014239 seconds 
+  Import took 0.022219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Cart2.png
+  artifactKey: Guid(505e6a2651193b44eae7fdf195b49892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Cart2.png using Guid(505e6a2651193b44eae7fdf195b49892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35a5abd554aa6d016dfc0a736292360') in 0.015615 seconds 
+  Import took 0.023244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Door2.png
+  artifactKey: Guid(108c965e06d324648bf12b7a1d718704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Door2.png using Guid(108c965e06d324648bf12b7a1d718704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34b959d74e7ff199d53ca1e6836891e') in 0.013645 seconds 
+  Import took 0.021969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Potion2.png
+  artifactKey: Guid(ec001db9c6cba4147b7b390fdca722c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Potion2.png using Guid(ec001db9c6cba4147b7b390fdca722c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54316a2216be7313096fef090342e77f') in 0.017335 seconds 
+  Import took 0.025142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Trophy2.png
+  artifactKey: Guid(1629a66cbe307d04e899a4cebcbe5033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Trophy2.png using Guid(1629a66cbe307d04e899a4cebcbe5033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2620e1d4c68aa7b66d94a0c0ac0c3e52') in 0.020482 seconds 
+  Import took 0.029601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Help2.png
+  artifactKey: Guid(47cbcac9cfe0f054e97262b815e8d4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Help2.png using Guid(47cbcac9cfe0f054e97262b815e8d4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df74bad8fc6d647ab682d2c968cedea7') in 0.019409 seconds 
+  Import took 0.028300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000767 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_ArrowRight2.png
+  artifactKey: Guid(b81b7ee64fc3b19408f6f60332b9fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_ArrowRight2.png using Guid(b81b7ee64fc3b19408f6f60332b9fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aead747e6093d61f5c09821ac224e8d') in 0.017407 seconds 
+  Import took 0.026894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_ArrowLeft2.png
+  artifactKey: Guid(5231b1599c10e1c4fa8f38f10b6f2928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_ArrowLeft2.png using Guid(5231b1599c10e1c4fa8f38f10b6f2928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd2ff1d48babb9d93b4aa2d4d51efbf') in 0.022503 seconds 
+  Import took 0.030737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Profile2.png
+  artifactKey: Guid(e217734527e535e438236c91a0b93e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Profile2.png using Guid(e217734527e535e438236c91a0b93e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69331506caa98bc0947971eec082478e') in 0.021164 seconds 
+  Import took 0.030250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_ArrowRight2.png
+  artifactKey: Guid(b81b7ee64fc3b19408f6f60332b9fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_ArrowRight2.png using Guid(b81b7ee64fc3b19408f6f60332b9fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aead747e6093d61f5c09821ac224e8d') in 0.016593 seconds 
+  Import took 0.024154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Quest2.png
+  artifactKey: Guid(b270b1b0c42230442bbe87ff8806b320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Quest2.png using Guid(b270b1b0c42230442bbe87ff8806b320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d94c1b659ff8482c583700b2da7ba3') in 0.018087 seconds 
+  Import took 0.027871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Random2.png
+  artifactKey: Guid(df1564f398054f34e9948c84c11c0ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Random2.png using Guid(df1564f398054f34e9948c84c11c0ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e63df1956758aef01f225e627a465ae') in 0.019291 seconds 
+  Import took 0.028854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Chat2.png
+  artifactKey: Guid(46ecfe976c1de56448912cf270acf60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Chat2.png using Guid(46ecfe976c1de56448912cf270acf60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74388eeb9552d6bf33637ad41fe56b24') in 0.016960 seconds 
+  Import took 0.028885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Export2.png
+  artifactKey: Guid(09aece2094662a24e9f712adb2fe8fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Export2.png using Guid(09aece2094662a24e9f712adb2fe8fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09053fe50a3b06fa5824b1c6b7a34166') in 0.018537 seconds 
+  Import took 0.028846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_X2.png
+  artifactKey: Guid(f9694c350b818004685d2bd0dcfa6fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_X2.png using Guid(f9694c350b818004685d2bd0dcfa6fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56fc06a8ea6dc7ea770570a21afea01') in 0.021211 seconds 
+  Import took 0.029580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Magnify2.png
+  artifactKey: Guid(5d52d1f17c647c8439c4ea9ca641ab14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Magnify2.png using Guid(5d52d1f17c647c8439c4ea9ca641ab14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1007478865fa465b6f3c18f0a334a40c') in 0.019697 seconds 
+  Import took 0.028334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Mail2.png
+  artifactKey: Guid(cf66115924870e64d989ad5dae954aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Mail2.png using Guid(cf66115924870e64d989ad5dae954aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4c6108c6da7932ea30ccad4ad486a5') in 0.018205 seconds 
+  Import took 0.029390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Menu2.png
+  artifactKey: Guid(76433ff157e1fed499b0ea8365861b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Menu2.png using Guid(76433ff157e1fed499b0ea8365861b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5b6f81e457728ce4a12f39b9aa964a') in 0.020182 seconds 
+  Import took 0.028751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Sound2.png
+  artifactKey: Guid(3ed9830d0e62b3146a6e388482825485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Sound2.png using Guid(3ed9830d0e62b3146a6e388482825485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef36de145f5220da8cdeb29508fb9545') in 0.018073 seconds 
+  Import took 0.028151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Power2.png
+  artifactKey: Guid(852585b18b794cb4ab9ddcf881c4ba01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Power2.png using Guid(852585b18b794cb4ab9ddcf881c4ba01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5a29987a1491ec3052a3bf03878f2e') in 0.020412 seconds 
+  Import took 0.029663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Attach2.png
+  artifactKey: Guid(79d05d61a006baf4195dc214354b6be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Attach2.png using Guid(79d05d61a006baf4195dc214354b6be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1b6ff2f8dd6b65114e031abf1aedea') in 0.021548 seconds 
+  Import took 0.030863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Squares2.png
+  artifactKey: Guid(714076b50badcce448b2333a1b11464d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Squares2.png using Guid(714076b50badcce448b2333a1b11464d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115998514343567447e330fbe36bd2cd') in 0.015540 seconds 
+  Import took 0.023943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Mute2.png
+  artifactKey: Guid(85f8dffb42a968c4f959353a32f3293c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Mute2.png using Guid(85f8dffb42a968c4f959353a32f3293c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2362f2248206c1ea9dfd5dd335a33542') in 0.018398 seconds 
+  Import took 0.028733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Import2.png
+  artifactKey: Guid(9eb39a5097df97a4da819ccd3586a1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Import2.png using Guid(9eb39a5097df97a4da819ccd3586a1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcb394b7820e8c855447e671ef8f928') in 0.017857 seconds 
+  Import took 0.025229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Settings2.png
+  artifactKey: Guid(6e55bed4dac211649ab7669da53db9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Settings2.png using Guid(6e55bed4dac211649ab7669da53db9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fe0043480f64286afd2af8678d0991') in 0.018460 seconds 
+  Import took 0.025575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Info2.png
+  artifactKey: Guid(1c8d090f0b7603e458a43455f46d32d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Info2.png using Guid(1c8d090f0b7603e458a43455f46d32d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8b38034e1830d08ca079bea4d598d4') in 0.018553 seconds 
+  Import took 0.027204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Home2.png
+  artifactKey: Guid(24388d1bd21caf244b3f801d09c8ebac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Home2.png using Guid(24388d1bd21caf244b3f801d09c8ebac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad28ed475c50e3be5fe4bb7a73dadf64') in 0.019709 seconds 
+  Import took 0.028362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Coins2.png
+  artifactKey: Guid(b8533c226b3a4c8489966f1b7a761fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Coins2.png using Guid(b8533c226b3a4c8489966f1b7a761fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9819ee4288eaefdd17837c26971eae50') in 0.014127 seconds 
+  Import took 0.022701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_ArrowUp2.png
+  artifactKey: Guid(b7da3fe4d408bd842bba5a56105fcb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_ArrowUp2.png using Guid(b7da3fe4d408bd842bba5a56105fcb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08aaf5f059e3c714cc488a3214d2e9c') in 0.016517 seconds 
+  Import took 0.025201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Medal2.png
+  artifactKey: Guid(497d7039f704a3243be036f53cfa9b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Medal2.png using Guid(497d7039f704a3243be036f53cfa9b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2910c21181d401e661e5620cdb859a5') in 0.018432 seconds 
+  Import took 0.025060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.537586 seconds.
+  path: Assets/Icons_Settings2.png
+  artifactKey: Guid(6e55bed4dac211649ab7669da53db9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons_Settings2.png using Guid(6e55bed4dac211649ab7669da53db9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9829f9cd4b1dd95b119d26fa56fccd82') in 0.017182 seconds 
+  Import took 0.026299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020013 seconds.
+  path: Assets/Icons_Settings2.png
+  artifactKey: Guid(6e55bed4dac211649ab7669da53db9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons_Settings2.png using Guid(6e55bed4dac211649ab7669da53db9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9829f9cd4b1dd95b119d26fa56fccd82') in 0.016814 seconds 
+  Import took 0.028339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.430164 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows
+  artifactKey: Guid(7f88f8051afb272428b0a879f8b94923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows using Guid(7f88f8051afb272428b0a879f8b94923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544b91db7af229a324eff55fe2691725') in 0.002079 seconds 
+  Import took 0.008531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096591 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/LoadingBar_Empty.png
+  artifactKey: Guid(500d1ced8368feb48a59dfae71fa08c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/LoadingBar_Empty.png using Guid(500d1ced8368feb48a59dfae71fa08c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3065fe5be1263974ad20825cec383c') in 0.018208 seconds 
+  Import took 0.026403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/Slider_Knob.png
+  artifactKey: Guid(a2985d74a44b3a84ab97b40fd6648fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/Slider_Knob.png using Guid(a2985d74a44b3a84ab97b40fd6648fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b40400aad8ae63b6b0a0143df6f777') in 0.012490 seconds 
+  Import took 0.020144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/ScrollBar_Frame.png
+  artifactKey: Guid(ba89494f20c7dad40922d04142939c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/ScrollBar_Frame.png using Guid(ba89494f20c7dad40922d04142939c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c4645015abf92258982338ce6f3595') in 0.022120 seconds 
+  Import took 0.029969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/ScrollBar_Thumbtrack_Rounded.png
+  artifactKey: Guid(a096a0d986fce5143bf3709a9249b55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/ScrollBar_Thumbtrack_Rounded.png using Guid(a096a0d986fce5143bf3709a9249b55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5789da70eb9993f53c1b6cb0c617cfe9') in 0.019316 seconds 
+  Import took 0.026571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/Window_PageNumber_Hover_Rounded.png
+  artifactKey: Guid(25b6eb02a5eded2459417ad03287dfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/Window_PageNumber_Hover_Rounded.png using Guid(25b6eb02a5eded2459417ad03287dfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9940f102de0b6cd564edceb10f377311') in 0.019322 seconds 
+  Import took 0.029646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/Window_Saving.png
+  artifactKey: Guid(5de22fcadd345804c9e4d70d9ea54daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/Window_Saving.png using Guid(5de22fcadd345804c9e4d70d9ea54daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9384dc6ae7b3a2db2c7db6ba98144c30') in 0.015219 seconds 
+  Import took 0.023832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000762 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/Window_SubHeading_Rounded.png
+  artifactKey: Guid(eff5dcb823e56cf43a253b0e3fa06855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/Window_SubHeading_Rounded.png using Guid(eff5dcb823e56cf43a253b0e3fa06855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f150f19546e2e99c8d1cf67c4595b2a2') in 0.019131 seconds 
+  Import took 0.026816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/Window_PageNumber_Hover.png
+  artifactKey: Guid(696b33485a186bf40998fd3efe37bf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/Window_PageNumber_Hover.png using Guid(696b33485a186bf40998fd3efe37bf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ae8634e020c6ad0de2d2d113d316f0') in 0.019251 seconds 
+  Import took 0.028094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/Window_Frame.psd
+  artifactKey: Guid(8640893374ae8324a9c36c1c09843153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/Window_Frame.psd using Guid(8640893374ae8324a9c36c1c09843153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8771a975096070048ad18a3406b1674') in 0.037557 seconds 
+  Import took 0.046473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/ScrollBar_Arrow_Down.png
+  artifactKey: Guid(89c78f7b9feb55a41bf6188d6989634d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/ScrollBar_Arrow_Down.png using Guid(89c78f7b9feb55a41bf6188d6989634d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd688acaf38952031279639dc9dcc281') in 0.020781 seconds 
+  Import took 0.030944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/LoadingBar_Full.png
+  artifactKey: Guid(da4072307919dba4581b15ee30cc6bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/LoadingBar_Full.png using Guid(da4072307919dba4581b15ee30cc6bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5068a238a04b6aa21e659b4aa7bd65') in 0.017079 seconds 
+  Import took 0.027959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/ScrollBar_Arrow_Down.png
+  artifactKey: Guid(89c78f7b9feb55a41bf6188d6989634d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/ScrollBar_Arrow_Down.png using Guid(89c78f7b9feb55a41bf6188d6989634d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd688acaf38952031279639dc9dcc281') in 0.016661 seconds 
+  Import took 0.027409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/Window_PageNumber_NoHover.png
+  artifactKey: Guid(73e80bae85a96064f93ffdefc7699e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/Window_PageNumber_NoHover.png using Guid(73e80bae85a96064f93ffdefc7699e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52191691926d4e41f871ff6ab3fe96c7') in 0.015801 seconds 
+  Import took 0.025384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/Window_Frame.png
+  artifactKey: Guid(b5af773554ef43a4f859d6e7d3513b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/Window_Frame.png using Guid(b5af773554ef43a4f859d6e7d3513b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ceaec706a7a839127980c5b7024d23') in 0.033355 seconds 
+  Import took 0.040510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/ScrollBar_Frame_Rounded.png
+  artifactKey: Guid(2b9e9959f14c91548aa4ecc3e415985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/ScrollBar_Frame_Rounded.png using Guid(2b9e9959f14c91548aa4ecc3e415985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e305d2efab5047c2fce32ebe0d941bb1') in 0.017577 seconds 
+  Import took 0.026424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/Window_Frame_Rounded.png
+  artifactKey: Guid(392adc69986392c498f5600ba8170841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/Window_Frame_Rounded.png using Guid(392adc69986392c498f5600ba8170841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3c168e3d501a65cddadc93b3d16a50') in 0.023650 seconds 
+  Import took 0.031760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/ScrollBar_Arrow_Up.png
+  artifactKey: Guid(377515847bbe53d4fbe82b311386c42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/ScrollBar_Arrow_Up.png using Guid(377515847bbe53d4fbe82b311386c42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab357d819089d1c7cbe2cd01cd298dc') in 0.017294 seconds 
+  Import took 0.023178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/Slider_Frame.png
+  artifactKey: Guid(19834af881813f342ab0cec92cee91de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/Slider_Frame.png using Guid(19834af881813f342ab0cec92cee91de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8932ce3abe74efddbeb417823666c35b') in 0.016164 seconds 
+  Import took 0.025581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/Window_SubHeading.png
+  artifactKey: Guid(756e3d4c5fc1bd549a052fab1ead3703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/Window_SubHeading.png using Guid(756e3d4c5fc1bd549a052fab1ead3703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ec57f9fb60b61cecf6c62e53a9467a') in 0.020101 seconds 
+  Import took 0.027971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/Window_PageNumber_NoHover_Rounded.png
+  artifactKey: Guid(2b1237c776e497c47adb799cc4b647ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/Window_PageNumber_NoHover_Rounded.png using Guid(2b1237c776e497c47adb799cc4b647ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298b499a1940176cf137fe3455d96f11') in 0.015933 seconds 
+  Import took 0.025723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/ScrollBar_Thumbtrack.png
+  artifactKey: Guid(091625301a1a46f459443dd912e2c6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/ScrollBar_Thumbtrack.png using Guid(091625301a1a46f459443dd912e2c6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71491037e38c8d5441cce8e4f53377eb') in 0.020149 seconds 
+  Import took 0.030248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.571217 seconds.
+  path: Assets/Modern & Clean GUI/Sign In Rounded
+  artifactKey: Guid(ed87f4d69b514464b932018146250c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Sign In Rounded using Guid(ed87f4d69b514464b932018146250c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cf0363dead70b04fb0e13a40727910') in 0.001894 seconds 
+  Import took 0.011676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087623 seconds.
+  path: Assets/Modern & Clean GUI/Sign In Rounded/Facebook Frame Logo.png
+  artifactKey: Guid(5ffff9361dbc57d41a2c28343f09c698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Sign In Rounded/Facebook Frame Logo.png using Guid(5ffff9361dbc57d41a2c28343f09c698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b944cb0242bec2dba18657f94c47cab1') in 0.013933 seconds 
+  Import took 0.020590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Modern & Clean GUI/Sign In Rounded/Facebook_Logo.png
+  artifactKey: Guid(27a9df22bda90504ea67a42b61de4a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Sign In Rounded/Facebook_Logo.png using Guid(27a9df22bda90504ea67a42b61de4a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a544e176277ae3c6ba98a75488877733') in 0.014165 seconds 
+  Import took 0.021954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Modern & Clean GUI/Sign In Rounded/Text Field Hover.png
+  artifactKey: Guid(0f7e4a15cbaf9be429703be7e1225624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Sign In Rounded/Text Field Hover.png using Guid(0f7e4a15cbaf9be429703be7e1225624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926f99a530781061ee3d06549f783ba7') in 0.016091 seconds 
+  Import took 0.023915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Modern & Clean GUI/Sign In Rounded/Sing In Window Rounded.png
+  artifactKey: Guid(0284ee17731dd1940b289ce3137f5dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Sign In Rounded/Sing In Window Rounded.png using Guid(0284ee17731dd1940b289ce3137f5dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5034e80d9b1c2ed63ff40156f7adec0') in 0.026855 seconds 
+  Import took 0.035286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Modern & Clean GUI/Sign In Rounded/Facebook Frame.png
+  artifactKey: Guid(8f6c8ae6a1858194696389bb71136be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Sign In Rounded/Facebook Frame.png using Guid(8f6c8ae6a1858194696389bb71136be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf3ecde42b4c2c11c9d8f95c06af89b') in 0.014725 seconds 
+  Import took 0.022954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Modern & Clean GUI/Sign In Rounded/Text Field Normal.png
+  artifactKey: Guid(87b3fd4739c058b42bbe7b509ee7c13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Sign In Rounded/Text Field Normal.png using Guid(87b3fd4739c058b42bbe7b509ee7c13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9737c8d6f7975944c88c7b5869f206b') in 0.018315 seconds 
+  Import took 0.026524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.483204 seconds.
+  path: Assets/Modern & Clean GUI/Sign In Squared
+  artifactKey: Guid(8a037c3d96d528742875738b09d49266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Sign In Squared using Guid(8a037c3d96d528742875738b09d49266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0ffeef603f32d97f39a8a3ec075cc6') in 0.001884 seconds 
+  Import took 0.011045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056818 seconds.
+  path: Assets/Modern & Clean GUI/Sign In Squared/Facebook_Frame Logo.png
+  artifactKey: Guid(d7e0f745e2adbf24f997235a7b9eacdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Sign In Squared/Facebook_Frame Logo.png using Guid(d7e0f745e2adbf24f997235a7b9eacdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199e72ae4e3e14eea23e30f2fbeac233') in 0.013039 seconds 
+  Import took 0.022471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Modern & Clean GUI/Sign In Squared/Facebook_Logo.png
+  artifactKey: Guid(c7872d32137cf9b4dbed4e0349bfd5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Sign In Squared/Facebook_Logo.png using Guid(c7872d32137cf9b4dbed4e0349bfd5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7176f1c24f82f9f9c8146d1318fecc') in 0.015118 seconds 
+  Import took 0.022979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Modern & Clean GUI/Sign In Squared/Facebook_Frame.png
+  artifactKey: Guid(0e5809d5a088bb849a17b2c73fe88495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Sign In Squared/Facebook_Frame.png using Guid(0e5809d5a088bb849a17b2c73fe88495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0841552b78b915e63146373b557ffb') in 0.018463 seconds 
+  Import took 0.027480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Modern & Clean GUI/Sign In Squared/Text Field_Normal.png
+  artifactKey: Guid(da243fe58024ee54da538632e2b5220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Sign In Squared/Text Field_Normal.png using Guid(da243fe58024ee54da538632e2b5220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b0819fefe6117692a4aa81d9d5cb73') in 0.016281 seconds 
+  Import took 0.024841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Modern & Clean GUI/Sign In Squared/Sign In Squared Window.png
+  artifactKey: Guid(5b9a08b6fb3e6ee4c8bcef9ee7f30566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Sign In Squared/Sign In Squared Window.png using Guid(5b9a08b6fb3e6ee4c8bcef9ee7f30566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5c90432ff0437f80e917f2280f184d') in 0.025077 seconds 
+  Import took 0.033535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000691 seconds.
+  path: Assets/Modern & Clean GUI/Sign In Squared/Text Field_Hover.png
+  artifactKey: Guid(0a8b82b9999f801438ff86ab185f0bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Sign In Squared/Text Field_Hover.png using Guid(0a8b82b9999f801438ff86ab185f0bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c04c48ecf884c55f4a7b27a3c10fbd6') in 0.019582 seconds 
+  Import took 0.029304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.848880 seconds.
+  path: Assets/Modern & Clean GUI/Gradient_builder_2.jpg
+  artifactKey: Guid(adcedc7d3e51ae84dafc66d3da37102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern & Clean GUI/Gradient_builder_2.jpg using Guid(adcedc7d3e51ae84dafc66d3da37102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9f19c6f1d2ea489ee690657a7ae67f') in 0.089502 seconds 
+  Import took 0.099853 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
