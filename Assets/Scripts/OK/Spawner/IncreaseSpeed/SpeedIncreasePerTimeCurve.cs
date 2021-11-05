@@ -24,4 +24,6 @@ public class SpeedIncreasePerTimeCurve : ASpeedIncrease
             _currentKey = 0;
         }
     }
+
+   
 }
