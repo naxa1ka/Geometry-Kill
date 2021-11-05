@@ -11,4 +11,4 @@
 7. Добавить логику постоянного ускорения всех шариков с течением времени для усложнения процесса.
 8. Версия юнити - 2020
 
-<center>![GamePlay](gameplay.gif)</center>
+!<center>[GamePlay](gameplay.gif)</center>
