@@ -14,7 +14,7 @@
   <img src="gameplay.gif" alt="gameplay" />
 </p>
 
-# Плагины:
+# Плагины, использованные в проекте:
 * DOTween
 * Zenject
 * TextMeshPro
