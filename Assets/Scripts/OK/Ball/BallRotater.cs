@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class BallRotating : MonoBehaviour
+public class BallRotater : MonoBehaviour
 {
     [SerializeField] private float _rotateSpeed;
     [SerializeField] private Vector3 _rotateAmount;

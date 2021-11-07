@@ -3,7 +3,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(BallEffects))]
-[RequireComponent(typeof(BallRotating))]
+[RequireComponent(typeof(BallRotater))]
 [RequireComponent(typeof(BallMover))]
 
 public class Ball : MonoBehaviour
