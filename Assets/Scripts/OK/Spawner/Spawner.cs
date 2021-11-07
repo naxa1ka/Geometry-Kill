@@ -27,7 +27,8 @@ public class Spawner : MonoBehaviour
 
     private void Spawn()
     {
-        var ball = _ballFactory.Spawn(_spawnPositions.RandomItem().position, Quaternion.identity);
+        var spawnPosition = _spawnPositions.RandomItem().position;
+        var ball = _ballFactory.Spawn(spawnPosition, Quaternion.identity);
         _ballPropertyIniter.Init(ball);
         
         OnBallSpawned?.Invoke(ball);

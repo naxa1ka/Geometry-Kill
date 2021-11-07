@@ -22,7 +22,7 @@ public class BallEffects : MonoBehaviour
             .OnComplete(() => transform.DORewind());
     }
 
-    public void OnDie()
+    public void AnimateDie()
     {
         _onDieEffects.transform.position = transform.position;
         _onDieEffects.Play();

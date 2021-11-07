@@ -41,7 +41,7 @@ public class Ball : MonoBehaviour
         {
             Die();
             return true;
-        }
+        } 
 
         _ballEffects.AnimateHit();
         return false;
@@ -61,7 +61,7 @@ public class Ball : MonoBehaviour
 
     private void OnDestroy()
     {
-        _ballEffects.OnDie();
+        _ballEffects.AnimateDie();
         OnDied?.Invoke(this);
     }
 }

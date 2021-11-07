@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 8865647011399633066}
   - component: {fileID: 8865647011399633067}
   - component: {fileID: 8865647011399633064}
-  - component: {fileID: 8865647011399633061}
   - component: {fileID: -3753593632926505486}
   - component: {fileID: 4825990602117412893}
   - component: {fileID: -8781948481874327439}
+  - component: {fileID: 2452670811846162965}
   m_Layer: 0
   m_Name: Polygon
   m_TagString: Untagged
@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8865647011399633065}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.35647762, y: -0.20758492, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -99,22 +99,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 811d4f4715457b24bb809a3f93366f47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!58 &8865647011399633061
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8865647011399633065}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!114 &-3753593632926505486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,3 +141,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf774dc81f2541d2bd4a0091c42f325f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &2452670811846162965
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8865647011399633065}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.002318263, y: 0.030137062}
+  serializedVersion: 2
+  m_Radius: 0.70954704
