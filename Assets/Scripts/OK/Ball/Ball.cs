@@ -1,21 +1,15 @@
 using System;
-using DG.Tweening;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 [RequireComponent(typeof(SpriteRenderer))]
-[RequireComponent(typeof(CircleCollider2D))]
+[RequireComponent(typeof(BallEffects))]
+
 public class Ball : MonoBehaviour
 {
-    [Header("AnimationSettings")] 
-    [SerializeField] private float _scaleAmount = 1.5f;
-    [SerializeField] private float _scaleTime = 0.1f;
-    [Space(10)] 
     [SerializeField] private float _rotateSpeed;
     [SerializeField] private Vector3 _rotateAmount;
     [SerializeField] private float _randomAngle = 25f;
-    [Space(10)]
-    [SerializeField] private SubEmittersParticles _onDieEffects;
     
     private float _health;
     private float _speed;
@@ -23,6 +17,7 @@ public class Ball : MonoBehaviour
     private int _damageOnDie;
 
     private SpriteRenderer _sprite;
+    private BallEffects _ballEffects;
 
     public int ScoreOnDie => _scoreOnDie;
     public int DamageOnDie => _damageOnDie;
@@ -37,8 +32,7 @@ public class Ball : MonoBehaviour
         _damageOnDie = damageOnDie;
         _sprite.color = color;
 
-        _onDieEffects = Instantiate(_onDieEffects);
-        _onDieEffects.ChangeStartColor(color);
+        _ballEffects.Init(color);
     }
 
     public bool TryToKill(int value)
@@ -51,13 +45,14 @@ public class Ball : MonoBehaviour
             return true;
         }
 
-        AnimateHit();
+        _ballEffects.AnimateHit();
         return false;
     }
 
     private void Awake()
     {
         _sprite = GetComponent<SpriteRenderer>();
+        _ballEffects = GetComponent<BallEffects>();
     }
 
     private void Start()
@@ -87,13 +82,6 @@ public class Ball : MonoBehaviour
         transform.Translate(Vector3.down * (_speed * Time.deltaTime));
     }
 
-    private void AnimateHit()
-    {
-        transform
-            .DOScale(Vector3.one * _scaleAmount, _scaleTime)
-            .OnComplete(() => transform.DORewind());
-    }
-
     private void Die()
     {
         Destroy(gameObject);
@@ -101,9 +89,7 @@ public class Ball : MonoBehaviour
 
     private void OnDestroy()
     {
-        _onDieEffects.transform.position = transform.position;
-        _onDieEffects.Play();
-        
+        _ballEffects.OnDie();
         OnDied?.Invoke(this);
     }
 }

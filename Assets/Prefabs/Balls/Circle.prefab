@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8865647011399633067}
   - component: {fileID: 8865647011399633064}
   - component: {fileID: 8865647011399633061}
+  - component: {fileID: -4936261260655954218}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -96,12 +97,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 811d4f4715457b24bb809a3f93366f47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scaleAmount: 1.5
-  _scaleTime: 0.1
   _rotateSpeed: 5
   _rotateAmount: {x: 0, y: 0, z: 2}
   _randomAngle: 25
-  _onDieEffects: {fileID: 1077807472468862901, guid: 4f5c5da40a797254eab2ece25e2fb816, type: 3}
 --- !u!58 &8865647011399633061
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -118,3 +116,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &-4936261260655954218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8865647011399633065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ce239dd76284eb785da772198036a33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scaleAmount: 1.5
+  _scaleTime: 0.1
+  _onDieEffects: {fileID: 1077807472468862901, guid: 4f5c5da40a797254eab2ece25e2fb816, type: 3}
