@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 8865647011399633064}
   - component: {fileID: 8865647011399633061}
   - component: {fileID: -4351341549197275080}
+  - component: {fileID: 8828021065807505166}
+  - component: {fileID: -3979803594613302014}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Untagged
@@ -97,9 +99,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 811d4f4715457b24bb809a3f93366f47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotateSpeed: 5
-  _rotateAmount: {x: 0, y: 0, z: 2}
-  _randomAngle: 25
 --- !u!58 &8865647011399633061
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -131,3 +130,30 @@ MonoBehaviour:
   _scaleAmount: 1.5
   _scaleTime: 0.1
   _onDieEffects: {fileID: 1077807472468862901, guid: 4f5c5da40a797254eab2ece25e2fb816, type: 3}
+--- !u!114 &8828021065807505166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8865647011399633065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3a7a702e124526bb168893f190a8dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotateSpeed: 5
+  _rotateAmount: {x: 0, y: 0, z: 2}
+  _randomAngle: 25
+--- !u!114 &-3979803594613302014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8865647011399633065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf774dc81f2541d2bd4a0091c42f325f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
