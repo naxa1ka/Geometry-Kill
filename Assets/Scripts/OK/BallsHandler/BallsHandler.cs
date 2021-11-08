@@ -8,6 +8,8 @@ public class BallsHandler : IInitializable, IDisposable
 
     private readonly LinkedList<Ball> _balls = new LinkedList<Ball>();
     public IReadOnlyCollection<Ball> Balls => _balls;
+
+    public event Action<Ball> OnBallKilled;
     
     public BallsHandler(Spawner spawner)
     {
@@ -27,12 +29,21 @@ public class BallsHandler : IInitializable, IDisposable
     private void Add(Ball ball)
     {
         _balls.AddLast(ball);
-        ball.OnDied += Remove;
+        
+        ball.OnKilled += OnKilled;
+        ball.OnDestroyed += Remove;
+    }
+
+    private void OnKilled(Ball ball)
+    {
+        OnBallKilled?.Invoke(ball);
     }
 
     private void Remove(Ball ball)
     {
-        ball.OnDied -= Remove;
+        ball.OnKilled -= OnKilled;
+        ball.OnDestroyed -= Remove;
+        
         _balls.Remove(ball);
     }
     

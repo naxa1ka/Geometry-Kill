@@ -35,7 +35,7 @@ public class BallPropertyIniter : MonoBehaviour
     {
         if (_speedIncrease is ASpeedIncrease) return;
 
-        Debug.Log($"{_speedIncrease.name} must be implement {nameof(ASpeedIncrease)}");
+        Debug.LogError($"{_speedIncrease.name} must be implement {nameof(ASpeedIncrease)}");
         _speedIncrease = null;
     }
 
@@ -46,8 +46,8 @@ public class BallPropertyIniter : MonoBehaviour
             _speed.Random() * SpeedIncrease.CurrentCoefficientAffect,
             Mathf.CeilToInt(_scoreOnDie.Random()),
             Mathf.CeilToInt(_damageOnDie.Random()),
-            _colors.RandomItem()
+            _colors.RandomItem(),
+            new Vector3(0, 0, _angle.Random())
             );
-        ball.transform.eulerAngles = new Vector3(0, 0, _angle.Random());
     }
 }

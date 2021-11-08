@@ -20,6 +20,7 @@ public class Installer : MonoInstaller
     private void BindBallsHandler()
     {
         Container.BindInterfacesAndSelfTo<BallsHandler>().FromNew().AsSingle();
+        Container.BindInterfacesAndSelfTo<BallDeathHandler>().FromNew().AsSingle();
     }
 
     private void BindInstances()
@@ -30,7 +31,7 @@ public class Installer : MonoInstaller
 
     private void BindDamageSystem()
     {
-        Container.BindInterfacesAndSelfTo<BallDamager>().FromNew().AsSingle();
+        Container.BindInterfacesAndSelfTo<BallClickHandler>().FromNew().AsSingle();
     }
 
     private void BindInput()

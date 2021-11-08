@@ -21,7 +21,7 @@ public class BallEdgeDetector : ITickable
             if (_edgeDetector.IsOutsideEdge(ball.transform.position))
             {
                 _player.ApplyDamage(ball.DamageOnDie);
-                Object.Destroy(ball.gameObject);
+                ball.DestroyThis();
             }
         }
     }

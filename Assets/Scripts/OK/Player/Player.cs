@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IDamageable
 {
     [SerializeField] private int _maxHealth;
 
@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
         _currentHealth -= value;
         OnHealthChanged?.Invoke(_currentHealth, _maxHealth);
         
-        if (_currentHealth < 0)
+        if (_currentHealth <= 0)
         {
             OnDie?.Invoke();
         }

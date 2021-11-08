@@ -6,7 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(BallRotater))]
 [RequireComponent(typeof(BallMover))]
 
-public class Ball : MonoBehaviour
+public class Ball : MonoBehaviour, IDamageable
 {
     private float _health;
     private int _scoreOnDie;
@@ -16,13 +16,15 @@ public class Ball : MonoBehaviour
     
     private BallEffects _ballEffects;
     private BallMover _ballMover;
+    private BallRotater _ballRotater;
 
     public int ScoreOnDie => _scoreOnDie;
     public int DamageOnDie => _damageOnDie;
 
-    public event Action<Ball> OnDied;
+    public event Action<Ball> OnDestroyed;
+    public event Action<Ball> OnKilled;
 
-    public void Init(float health, float speed, int scoreOnDie, int damageOnDie, Color color)
+    public void Init(float health, float speed, int scoreOnDie, int damageOnDie, Color color, Vector3 angle)
     {
         _health = health;
         _scoreOnDie = scoreOnDie;
@@ -30,21 +32,29 @@ public class Ball : MonoBehaviour
         _sprite.color = color;
         
         _ballMover.Init(speed);
+        _ballRotater.Init(angle);
         _ballEffects.Init(color);
     }
 
-    public bool TryToKill(int value)
+    public void ApplyDamage(int value)
     {
         _health -= value;
 
-        if (_health < 0)
+        if (_health > 0)
+        {
+            _ballEffects.AnimateHit();
+        }
+        else
         {
             Die();
-            return true;
-        } 
+            OnKilled?.Invoke(this);
+        }
+    }
 
-        _ballEffects.AnimateHit();
-        return false;
+    public void DestroyThis()
+    {
+        _ballEffects.AnimateDie();
+        Destroy(gameObject);
     }
 
     private void Awake()
@@ -52,16 +62,16 @@ public class Ball : MonoBehaviour
         _sprite = GetComponent<SpriteRenderer>();
         _ballEffects = GetComponent<BallEffects>();
         _ballMover = GetComponent<BallMover>();
+        _ballRotater= GetComponent<BallRotater>();
     }
 
     private void Die()
     {
-        Destroy(gameObject);
+        DestroyThis();
     }
 
     private void OnDestroy()
     {
-        _ballEffects.AnimateDie();
-        OnDied?.Invoke(this);
+        OnDestroyed?.Invoke(this);
     }
 }

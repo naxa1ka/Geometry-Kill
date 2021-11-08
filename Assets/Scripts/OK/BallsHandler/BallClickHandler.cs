@@ -1,16 +1,14 @@
 ﻿using System;
 using Zenject;
 
-public class BallDamager: IInitializable, IDisposable
+public class BallClickHandler: IInitializable, IDisposable
 {
     private readonly BallDetector _ballDetector;
-    private readonly ScoreHandler _scoreHandler;
 
     private const int DamagePerClick = 1;
     
-    public BallDamager(ScoreHandler scoreHandler, BallDetector ballDetector)
+    public BallClickHandler(BallDetector ballDetector)
     {
-        _scoreHandler = scoreHandler;
         _ballDetector = ballDetector;
     }
 
@@ -21,10 +19,7 @@ public class BallDamager: IInitializable, IDisposable
     
     private void OnBallClicked(Ball ball)
     {
-        if (ball.TryToKill(DamagePerClick))
-        {
-            _scoreHandler.AddScore(ball.ScoreOnDie);
-        }
+        ball.ApplyDamage(DamagePerClick);
     }
 
     public void Dispose()

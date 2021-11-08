@@ -21,9 +21,4 @@ public class SubEmittersParticles : MonoBehaviour
         var particlesMain = particles.main;
         particlesMain.startColor = color;
     }
-    
-    public void Play()
-    {
-        _owner.Play();
-    }
 }

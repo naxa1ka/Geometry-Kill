@@ -1,21 +1,13 @@
 ﻿using UnityEngine;
-using Random = UnityEngine.Random;
 
 public class BallRotater : MonoBehaviour
 {
     [SerializeField] private float _rotateSpeed;
     [SerializeField] private Vector3 _rotateAmount;
-    [SerializeField] private float _randomAngle = 25f;
-    
-    private void Start()
-    {
-        InitRandomAngle();
-    }
 
-    private void InitRandomAngle()
+    public void Init(Vector3 angle)
     {
-        var randomAngle = Random.Range(-_randomAngle, _randomAngle);
-        transform.eulerAngles = new Vector3(0f, 0f, randomAngle);
+        transform.eulerAngles = angle;
     }
 
     private void Update()
@@ -28,4 +20,5 @@ public class BallRotater : MonoBehaviour
         transform.Rotate(_rotateAmount * (_rotateSpeed * Time.deltaTime));
     }
 
+    
 }

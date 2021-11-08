@@ -3,16 +3,16 @@ using UnityEngine;
 
 public class BallEffects : MonoBehaviour
 {
-    [Header("AnimationSettings")] 
     [SerializeField] private float _scaleAmount = 1.5f;
     [SerializeField] private float _scaleTime = 0.1f;
     [Space(10)] 
     [SerializeField] private SubEmittersParticles _onDieEffects;
 
+    private Color _color;
+    
     public void Init(Color color)
     {
-        _onDieEffects = Instantiate(_onDieEffects);
-        _onDieEffects.ChangeStartColor(color);
+        _color = color;
     }
 
     public void AnimateHit()
@@ -24,7 +24,7 @@ public class BallEffects : MonoBehaviour
 
     public void AnimateDie()
     {
-        _onDieEffects.transform.position = transform.position;
-        _onDieEffects.Play();
+        _onDieEffects = Instantiate(_onDieEffects, transform.position, Quaternion.identity);
+        _onDieEffects.ChangeStartColor(_color);
     }
 }
