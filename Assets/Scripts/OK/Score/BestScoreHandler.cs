@@ -29,12 +29,14 @@ public class BestScoreHandler : IInitializable, IDisposable
             _bestScore = score;
         }
 
-        PlayerPrefs.SetInt(BestScoreKey, _bestScore);
+        
     }
 
     public void Dispose()
     {
+        PlayerPrefs.SetInt(BestScoreKey, _bestScore);
         PlayerPrefs.Save();
+        
         _scoreHandler.OnScoreChanged -= OnScoreChanged;
     }
 }

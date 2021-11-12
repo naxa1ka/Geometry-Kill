@@ -36,7 +36,14 @@ public class Installer : MonoInstaller
 
     private void BindInput()
     {
-        Container.BindInterfacesAndSelfTo<MouseInput>().AsSingle();
+        if (SystemInfo.deviceType == DeviceType.Handheld)
+        {
+            Container.BindInterfacesAndSelfTo<MobileInput>().AsSingle();
+        }
+        else
+        {
+            Container.BindInterfacesAndSelfTo<MouseInput>().AsSingle();
+        }
     }
 
     private void BindGeneral()
@@ -49,7 +56,7 @@ public class Installer : MonoInstaller
     private void BindBallDetection()
     {
         Container.BindInterfacesAndSelfTo<BallDetector>().FromNew().AsSingle();
-        Container.BindInterfacesAndSelfTo<BallEdgeDetector>().FromNew().AsSingle();
+        Container.BindInterfacesAndSelfTo<BallOutOfBoundsHandler>().FromNew().AsSingle();
     }
 
     private void BindScore()

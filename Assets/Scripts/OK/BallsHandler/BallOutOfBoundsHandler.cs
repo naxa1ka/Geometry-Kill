@@ -1,13 +1,13 @@
 ﻿using UnityEngine;
 using Zenject;
 
-public class BallEdgeDetector : ITickable
+public class BallOutOfBoundsHandler : ITickable
 {
     private readonly Player _player;
     private readonly EdgeDetector _edgeDetector;
     private readonly BallsHandler _ballsHandler;
     
-    public BallEdgeDetector(Player player, Camera cam, BallsHandler ballsHandler)
+    public BallOutOfBoundsHandler(Player player, Camera cam, BallsHandler ballsHandler)
     {
         _player = player;
         _edgeDetector = new EdgeDetector(cam);
