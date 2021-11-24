@@ -36,6 +36,6 @@ public class BallDetector : IInitializable, IDisposable
 
     public void Dispose()
     {
-        _input.OnClick += OnClick;
+        _input.OnClick -= OnClick;
     }
 }

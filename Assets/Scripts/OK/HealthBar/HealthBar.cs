@@ -1,20 +1,17 @@
-﻿using UnityEngine;
-using Zenject;
-
-public class HealthBar : MonoBehaviour
+﻿public class HealthBar
 {
-    [SerializeField] private SliderView _sliderView;
-    private Player _player;
+    private readonly IHealth _health;
+    private readonly SliderView _sliderView;
 
-    [Inject]
-    private void Constructor(Player player)
+    public HealthBar(IHealth health, SliderView sliderView)
     {
-        _player = player;
+        _health = health;
+        _sliderView = sliderView;
     }
     
-    private void OnEnable()
+    public void Enable()
     {
-        _player.OnHealthChanged += OnHealthChanged;
+        _health.OnHealthChanged += OnHealthChanged;
     }
 
     private void OnHealthChanged(int currentHealth, int maxHealth)
@@ -22,8 +19,8 @@ public class HealthBar : MonoBehaviour
         _sliderView.UpdateValue(currentHealth, maxHealth);
     }
 
-    private void OnDisable()
+    public void Disable()
     {
-        _player.OnHealthChanged -= OnHealthChanged;
+        _health.OnHealthChanged -= OnHealthChanged;
     }
 }

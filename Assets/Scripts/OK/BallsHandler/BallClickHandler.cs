@@ -33,7 +33,7 @@ public class BallClickHandler: IInitializable, IDisposable
     public void Dispose()
     {
         _player.OnDie -= DisableInput;
-        _ballDetector.OnBallClicked += OnBallClicked;
+        _ballDetector.OnBallClicked -= OnBallClicked;
     }
 
    

@@ -1,10 +1,9 @@
 ﻿using System;
 using UnityEngine;
 
-public class Player : MonoBehaviour, IDamageable
+public class Player : MonoBehaviour, IDamageable, IHealth
 {
     [SerializeField] private int _maxHealth;
-
     private int _currentHealth;
 
     public event Action OnDie;

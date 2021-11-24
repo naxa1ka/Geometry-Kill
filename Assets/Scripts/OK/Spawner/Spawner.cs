@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    [SerializeField] private BallPropertyIniter _ballPropertyIniter;
     [SerializeField] private List<Transform> _spawnPositions;
     [SerializeField] private BallFactory _ballFactory;
     [Space(10)]
@@ -29,7 +28,6 @@ public class Spawner : MonoBehaviour
     {
         var spawnPosition = _spawnPositions.RandomItem().position;
         var ball = _ballFactory.Spawn(spawnPosition, Quaternion.identity);
-        _ballPropertyIniter.Init(ball);
         
         OnBallSpawned?.Invoke(ball);
     }

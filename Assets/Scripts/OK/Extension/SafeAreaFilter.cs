@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 
-
-public class SaveAreaFilter : MonoBehaviour
+public class SafeAreaFilter : MonoBehaviour
 {
     private void Awake()
     {

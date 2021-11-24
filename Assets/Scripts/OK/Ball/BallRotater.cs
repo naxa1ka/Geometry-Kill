@@ -19,6 +19,4 @@ public class BallRotater : MonoBehaviour
     {
         transform.Rotate(_rotateAmount * (_rotateSpeed * Time.deltaTime));
     }
-
-    
 }

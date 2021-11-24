@@ -4,19 +4,29 @@ using UnityEngine;
 public class BallFactory : MonoBehaviour
 {
     [SerializeField] private List<Ball> _ballsPrefab;
+    [SerializeField] private BallPropertyIniter _ballPropertyIniter;
 
     public Ball Spawn()
     {
-        return Instantiate(_ballsPrefab.RandomItem());
+        var ball = Instantiate(_ballsPrefab.RandomItem());
+        _ballPropertyIniter.Init(ball);
+        
+        return ball;
     }
 
     public Ball Spawn(Vector3 position, Quaternion quaternion)
     {
-        return Instantiate(_ballsPrefab.RandomItem(), position, quaternion);
+        var ball = Instantiate(_ballsPrefab.RandomItem(), position, quaternion);
+        _ballPropertyIniter.Init(ball);
+
+        return ball;
     }
 
     public Ball Spawn(Vector3 position, Quaternion quaternion, Transform container)
     {
-        return Instantiate(_ballsPrefab.RandomItem(), position, quaternion, container);
+        var ball = Instantiate(_ballsPrefab.RandomItem(), position, quaternion, container);
+        _ballPropertyIniter.Init(ball);
+
+        return ball;
     }
 }

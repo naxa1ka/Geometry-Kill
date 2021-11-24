@@ -6,9 +6,9 @@ public class BestScoreHandler : IInitializable, IDisposable
 {
     private const string BestScoreKey = "BestScore";
     private readonly ScoreHandler _scoreHandler;
-    
+
     private int _bestScore;
-    
+
     public int BestScore => _bestScore;
 
     public BestScoreHandler(ScoreHandler scoreHandler)
@@ -28,15 +28,13 @@ public class BestScoreHandler : IInitializable, IDisposable
         {
             _bestScore = score;
         }
-
-        
     }
 
     public void Dispose()
     {
+        _scoreHandler.OnScoreChanged -= OnScoreChanged;
+        
         PlayerPrefs.SetInt(BestScoreKey, _bestScore);
         PlayerPrefs.Save();
-        
-        _scoreHandler.OnScoreChanged -= OnScoreChanged;
     }
 }

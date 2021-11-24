@@ -46,7 +46,7 @@ public class Ball : MonoBehaviour, IDamageable
         }
         else
         {
-            Die();
+            DestroyThis();
             OnKilled?.Invoke(this);
         }
     }
@@ -63,11 +63,6 @@ public class Ball : MonoBehaviour, IDamageable
         _ballEffects = GetComponent<BallEffects>();
         _ballMover = GetComponent<BallMover>();
         _ballRotater= GetComponent<BallRotater>();
-    }
-
-    private void Die()
-    {
-        DestroyThis();
     }
 
     private void OnDestroy()
