@@ -19,7 +19,7 @@
 * Zenject
 * TextMeshPro
 
-#Ревью кода:
+# Ревью кода:
 https://youtu.be/8N5rfmvM57U?t=9066
 
 Недочеты: 
